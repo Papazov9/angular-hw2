@@ -1,0 +1,82 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.book-card {
+  border: 1px solid #ddd; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px;
+  padding: 40px;
+  background-color: #df5900;
+  
+ 
+  width: 50%; 
+  max-width: 600px;
+  margin: 0 auto;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title, .author {
+  margin: 0 0 10px 0; 
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl; 
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.rating span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  direction: ltr; 
+}
+
+.rating span:hover,
+.rating span:hover ~ span {
+  color: gold;
+}
+
+.rating .active {
+  color: gold;
+}
+
+button {
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  background-color: rgb(0, 38, 255); /* Change as per your color theme */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(10, 236, 29); /* Darker shade on hover */
+}
+
+/* Positioning the buttons */
+.prev-button {
+  bottom: 10px;
+  left: 100px;
+}
+
+.next-button {
+  bottom: 10px;
+  right: 10px;
+}

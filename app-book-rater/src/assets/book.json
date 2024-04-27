@@ -1,0 +1,12 @@
+[
+  { "id": 1, "title": "Book One", "author": "Author A", "description": "description of book one...", "rating": [] },
+  { "id": 2, "title": "Book Two", "author": "Author B", "description": "description of book two...", "rating": [] },
+  { "id": 3, "title": "Book Three", "author": "Author C", "description": "description of book three...", "rating": [] },
+  { "id": 4, "title": "Book Four", "author": "Author D", "description": "description of book four...", "rating": [] },
+  { "id": 5, "title": "Book Five", "author": "Author E", "description": "description of book five...", "rating": [] },
+  { "id": 6, "title": "Book Six", "author": "Author F", "description": "description of book six...", "rating": [] },
+  { "id": 7, "title": "Book Seven", "author": "Author G", "description": "description of book seven...", "rating": [] },
+  { "id": 8, "title": "Book Eight", "author": "Author H", "description": "description of book eight...", "rating": [] },
+  { "id": 9, "title": "Book Nine", "author": "Author I", "description": "description of book nine...", "rating": [] },
+  { "id": 10, "title": "Book Ten", "author": "Author J", "description": "Content of book ten...", "rating": [] }
+]

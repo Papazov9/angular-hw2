@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="book-card" *ngIf="currentBook">
+      <div class="title"><h1>Title: {{currentBook.title}}</h1></div>
+      <div class="author"><h1>Author: {{currentBook.author}}</h1></div>
+      <div class="description"><h3>Description:</h3> 
+         {{currentBook.description}}
+      </div>
+      <div class="show-rating" *ngIf="isRated"><h4>Current rating: </h4> <span>{{avgRatingCurrentBook | number: '1.0-2'}}</span></div>
+      <div class="rating"><span *ngFor="let num of [5, 4, 3, 2, 1]" (click)="rate(num)">
+    &#9733;
+  </span>
+      </div>
+      <button [disabled]="currentBook.id === 1" (click)="showPrevBook()">Prev</button>
+      <button (click)="showNextBook()">Next</button>
+  </div>
+</div>
